@@ -1,14 +1,12 @@
 /// <reference types="cypress" />
 
 describe('Ticketbox', () => {
-    /// para quê serve essas setinhas?
-    /// it é o que o teste se propõe a fazer
+        /// it é o que o teste se propõe a fazer
     it('Compra bem sucedida no site', () => {
         cy.visit('https://ticket-box.s3.eu-central-1.amazonaws.com/index.html');
         cy.get('#first-name').type('Teste');
         //Se colocar #, ele entende que é um id. Pode usar #first-name ou [id="first-name"]. ID é o nome do elemento? Todo objeto é um elemento, mas nem todo elemento é um objeto? De onde tirei essa palavra "elemento?"
-        //Se colocar um . no começo, entende que é classe. Classe é o tipo de elemento?
-        //Qual seria o problema de usar ; no final da linha?
+        //Se colocar um . no começo, entende que é classe.   
 
         //Para abrir o Cypress: npx cypress open
 
