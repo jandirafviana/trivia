@@ -1,0 +1,30 @@
+// Controls for SNES
+// Written by Jandira Viana
+//
+// Controls:
+// Dpad = Arrow Keys
+// Left = Wiimote.Up
+// Right = Wiimote.Down
+// Down = Wiimote.Left
+// Up = Wiimote.Right
+// B 	S = Wiimote.Two
+// A 	D = Wiimote.B
+// Y 	A = Wiimote.One
+// X 	W = Wiimote.A
+// Start 	Enter = Wiimote.Home
+// Select	None
+// L	Q = Wiimote.Minus
+// R	E = Wiimote.Plus
+
+Left = Wiimote.Up
+Right = Wiimote.Down
+Down = Wiimote.Left
+Up = Wiimote.Right
+S = Wiimote.Two
+D = Wiimote.B
+A = Wiimote.One
+W = Wiimote.A
+Enter = Wiimote.Home
+Q = Wiimote.Minus
+E = Wiimote.Plus
+Wiimote.Led1 = true
